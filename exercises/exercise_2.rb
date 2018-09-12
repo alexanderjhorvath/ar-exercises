@@ -4,8 +4,8 @@ require_relative './exercise_1'
 puts "Exercise 2"
 puts "----------"
 
-@Store1 = Store.where(id: 1).first
-@Store2 = Store.where(id: 2).first
-@Store1.name = "Langley"
+@store1 = Store.where(id: 1).first
+@store2 = Store.where(id: 2).first
+@store1.name = "Langley"
 
-puts "Store 1 is now called #{@Store1.name}"
+puts "Store 1 is now called #{@store1.name}"
